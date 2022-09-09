@@ -1,0 +1,7 @@
+:root {
+    --font: 'Droid Sans Mono', monospace;
+}
+
+body {
+    font-family: var(--font);
+}
