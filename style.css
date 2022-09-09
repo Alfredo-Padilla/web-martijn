@@ -1,5 +1,6 @@
 :root {
     --light-gray: rgba(216, 216, 216);
+    --light-blue: #b1c1c3;
 
     --font: 'Droid Sans Mono', monospace;
     --font-size: 30px;
@@ -9,12 +10,26 @@
 html {
     font-size: 62.5%;
 }
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: var(--light-gray);
+    padding: 10px;
+    margin: 0;
+    overflow-x: hidden;
 }
 body * {
     font-family: var(--font);
     font-size: var(--font-size);
     line-height: var(--line-height);
     font-weight: 400;
+    color: #000;
+    text-shadow: 1px 5px 1px #fff;
+}
+
+a {
+    background-color: var(--light-blue);
+    text-decoration: none;
 }
