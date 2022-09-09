@@ -33,3 +33,21 @@ a {
     background-color: var(--light-blue);
     text-decoration: none;
 }
+
+/* Debug */
+.debug-menu {
+    background-color: #fff;
+    margin: 0;
+    padding: 10px;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-flow: column;
+}
+.debug-menu p {
+    margin: 0;
+    font-size: calc(var(--font-size) / 2);
+}
