@@ -1,10 +1,18 @@
 :root {
+    --light-gray: rgba(216, 216, 216);
+
     --font: 'Droid Sans Mono', monospace;
     --font-size: 30px;
-    --line-height: 44.4rem;
+    --line-height: 4.4rem;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body {
+    background-color: var(--light-gray);
+    
     font-family: var(--font);
     font-size: var(--font-size);
     line-height: var(--line-height);
